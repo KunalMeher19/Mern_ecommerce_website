@@ -1,0 +1,91 @@
+/* Style for the register form container */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Register form heading */
+  .register-page h2 {
+    margin-bottom: 30px;
+    color: #088178;
+    font-weight: 600;
+  }
+  
+  /* Style for the form labels */
+  .register-page label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Style for the input fields */
+  .register-page input[type="text"],
+  .register-page input[type="email"],
+  .register-page input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .register-page input[type="text"]:focus,
+  .register-page input[type="email"]:focus,
+  .register-page input[type="password"]:focus {
+    border-color: #088178;
+    outline: none;
+    box-shadow: 0 0 5px rgba(8, 129, 120, 0.2);
+  }
+  
+  /* Style for the buttons and links */
+  .register-page .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the register button */
+  .register-page button[type="submit"] {
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-page button[type="submit"]:hover {
+    background-color: #066a5c;
+  }
+  
+  /* Style for the login link */
+  .register-page a {
+    color: #088178;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .register-page a:hover {
+    text-decoration: underline;
+  }
+  
